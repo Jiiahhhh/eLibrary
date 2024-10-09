@@ -64,7 +64,7 @@ dependencies {
     testRuntimeOnly("org.seleniumhq.selenium:selenium-firefox-driver:4.19.1")
     testRuntimeOnly("org.seleniumhq.selenium:selenium-safari-driver:4.19.1")
     testImplementation("io.micronaut:micronaut-http-client")
-
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
 }
 
 application {
